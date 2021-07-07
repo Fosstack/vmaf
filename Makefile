@@ -13,3 +13,5 @@ install:
 	mkdir -p libvmaf/build && cd libvmaf/build && \
 	meson .. --buildtype release && \
 	ninja -vC . install
+
+
